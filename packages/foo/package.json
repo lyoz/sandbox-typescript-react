@@ -2,5 +2,11 @@
   "name": "foo",
   "version": "1.0.0",
   "private": true,
-  "scripts": {}
+  "scripts": {},
+  "dependencies": {
+    "react": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17"
+  }
 }
