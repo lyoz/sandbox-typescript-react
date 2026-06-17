@@ -2,6 +2,9 @@
   "name": "foo",
   "version": "1.0.0",
   "private": true,
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "scripts": {},
   "dependencies": {
     "react": "^19.2.7"
