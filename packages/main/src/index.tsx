@@ -1,7 +1,13 @@
+import { Foo } from "foo";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-const App = () => <div>App</div>;
+const App = () => (
+  <div>
+    App
+    <Foo />
+  </div>
+);
 
 const container = document.getElementById("root");
 const root = createRoot(container!);
